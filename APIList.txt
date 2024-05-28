@@ -1,0 +1,56 @@
+e-commerce-app/
+│
+├─── src/
+│   ├─── error-handler/
+│   │   ├─── applicationError.js
+│   │  
+│   ├─── features/
+│   │   ├─── cart/
+│   │   │   ├─── cart.model.js
+│   │   │   ├─── cart.controller.js
+│   │   │   ├─── cart.routes.js
+│   │   │
+│   │   ├─── order/
+│   │   │   ├─── 
+│   │   │
+│   │   ├─── product/
+│   │   │   ├─── product.model.js
+│   │   │   ├─── product.controller.js
+│   │   │   ├─── product.routes.js
+│   │   │
+│   │   ├─── user/
+│   │   │   ├─── user.model.js
+│   │   │   ├─── user.controller.js
+│   │   │   ├─── user.routes.js
+│   │   │      
+│   ├─── middlewares/
+│   │   ├─── basicAuth.middleware.js
+│   │   ├─── fileupload.middleware.js
+│   │   ├─── jwt.middleware.js
+│   │   ├─── logger.middleware.js
+│   │
+├─── uploads/
+├─── index.html
+├─── index.js
+├─── log.txt
+├─── logs.txt
+├─── package-lock.json
+├─── package.json
+├─── swagger.json
+
+
+ProductController
+ - Get Products
+ - Add a Product
+ - Get one Product
+ - Rate Product
+ - Filter Product
+
+CartController
+ - Add items to cart
+ - Get items to cart
+ - Delete items from cart
+
+ UserController
+ - SignUp -- Email, Name, Password, TypeOfUser (customer, seller)
+ - SignIn -- Email, Password
